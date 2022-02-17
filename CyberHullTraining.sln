@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32203.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberHullTraining", "CyberHullTraining\CyberHullTraining.csproj", "{0E250B1C-4516-4560-BD99-9B6BC0A43C7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E250B1C-4516-4560-BD99-9B6BC0A43C7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E250B1C-4516-4560-BD99-9B6BC0A43C7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E250B1C-4516-4560-BD99-9B6BC0A43C7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E250B1C-4516-4560-BD99-9B6BC0A43C7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EE9A9DB-5E99-4D01-88AD-F0DDCC381137}
+	EndGlobalSection
+EndGlobal
