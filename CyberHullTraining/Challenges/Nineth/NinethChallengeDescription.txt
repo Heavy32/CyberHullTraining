@@ -1,0 +1,2 @@
+﻿Create jagged array, which contains 3 "friends arrays", in which two family members should be stored 
+Introduce family members from different families to each other via console

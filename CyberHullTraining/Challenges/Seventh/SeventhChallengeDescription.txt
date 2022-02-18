@@ -1,0 +1,1 @@
+﻿Create a readonly property which calculates the front surface based on height and length
