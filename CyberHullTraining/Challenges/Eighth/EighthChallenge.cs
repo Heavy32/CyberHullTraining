@@ -33,7 +33,7 @@
                     continue;
                 }
 
-                if (value > 0 && value <= 9)
+                if (value >= 1 && value <= 9)
                 {
                     switch (value)
                     {
@@ -76,7 +76,7 @@
                 }
                 else
                 {
-                    Console.WriteLine("Value is not value");
+                    Console.WriteLine("Value is not valid");
                 }
             }
         }
@@ -113,6 +113,8 @@
                     return isWin;
                 }
             }
+
+            //diagonal checking is upset
 
             return default;
         }

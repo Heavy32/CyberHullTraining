@@ -14,6 +14,5 @@
         {
             Console.WriteLine("I work for {0} hours", WorkingHours);
         }
-
     }
 }

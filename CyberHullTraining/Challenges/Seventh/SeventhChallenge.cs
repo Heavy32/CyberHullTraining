@@ -1,5 +1,4 @@
-﻿
-namespace CyberHullTraining.Challenges.Seventh
+﻿namespace CyberHullTraining.Challenges.Seventh
 {
     internal sealed class SeventhChallenge : IChallenge
     {

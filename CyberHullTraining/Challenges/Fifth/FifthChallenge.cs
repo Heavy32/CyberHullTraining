@@ -12,7 +12,7 @@
 
             Console.WriteLine("Enter your score");
             int inputScore = Convert.ToInt32(Console.ReadLine());
-
+            
             if(inputScore > highestScore)
             {
                 Console.WriteLine(

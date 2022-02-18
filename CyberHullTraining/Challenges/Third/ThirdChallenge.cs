@@ -4,7 +4,7 @@
     {
         public void Act()
         {
-            ICollection<string> friends = new List<string> { "Helen", "Ivan", "Alex" };
+            IEnumerable<string> friends = new string[] { "Helen", "Ivan", "Alex" };
 
             foreach (var friend in friends)
             {

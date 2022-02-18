@@ -23,7 +23,7 @@
                 Password = inputPassword
             };
 
-            bool isSignedIn = IsUserRSignedIn(user);
+            bool isSignedIn = IsUserSignedIn(user);
 
             if (!isSignedIn)
             {
@@ -34,7 +34,7 @@
             Console.WriteLine($"Hello, {inputUserName}!");
         }
 
-        private bool IsUserRSignedIn(User user)
+        private bool IsUserSignedIn(User user)
         {
             return userRepository.GetUsers().Any(storedUser => storedUser == user);
         }
