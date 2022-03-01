@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32203.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberHullTraining", "CyberHullTraining\CyberHullTraining.csproj", "{0E250B1C-4516-4560-BD99-9B6BC0A43C7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CyberHullTraining", "CyberHullTraining\CyberHullTraining.csproj", "{0E250B1C-4516-4560-BD99-9B6BC0A43C7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskPoolTests", "TaskPoolTests\TaskPoolTests.csproj", "{03CDDFA1-0E46-4FDE-A044-335626CF2C58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0E250B1C-4516-4560-BD99-9B6BC0A43C7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E250B1C-4516-4560-BD99-9B6BC0A43C7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E250B1C-4516-4560-BD99-9B6BC0A43C7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03CDDFA1-0E46-4FDE-A044-335626CF2C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03CDDFA1-0E46-4FDE-A044-335626CF2C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03CDDFA1-0E46-4FDE-A044-335626CF2C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03CDDFA1-0E46-4FDE-A044-335626CF2C58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
