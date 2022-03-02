@@ -31,21 +31,20 @@ namespace TaskPoolTests
                     return Task.Run(
                         async () =>
                         {
-                            Interlocked.Increment(ref sharedNumber);
+                            var currectTaskCount = Interlocked.Increment(ref sharedNumber);
                             await Task.Delay(10);
-                            Interlocked.Decrement(ref sharedNumber);
                             strings.TryDequeue(out var message);
                             Console.WriteLine(message);
+                            Interlocked.Decrement(ref sharedNumber);
+
+                            Assert.IsTrue(sharedNumber <= parallelism);
                         });
                 };
 
             TaskPool taskPool = new TaskPool(new StringBuilderLogger());
 
             //Act
-            await taskPool.RunTask(taskMaker, parallelism);
-
-            //Assert
-            Assert.IsTrue(sharedNumber <= parallelism);
+            await taskPool.RunTask(taskMaker, parallelism);            
         }
     }
 }
